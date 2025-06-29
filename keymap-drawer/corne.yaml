@@ -41,8 +41,8 @@ layers:
   - $$mdi:keyboard-space$$
   - NUMBER
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:backspace$$', h: NUMBER}
-  - $$mdi:apple-keyboard-control$$
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: '$$mdi:apple-keyboard-control$$', h: NUMBER}
   NUMBER:
   - '~'
   - {t: '1', s: '!'}
@@ -84,8 +84,8 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: held}
   - INS
-  - {t: '$$mdi:backspace-reverse-outline$$', type: held alternate}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:backspace-reverse-outline$$
+  - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
   SYMBOL:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - F1
