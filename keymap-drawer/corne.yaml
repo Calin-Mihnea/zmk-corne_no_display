@@ -38,7 +38,7 @@ layers:
   - {t: /, s: '?'}
   - '&td0'
   - {t: LEFT WIN, h: SYMBOL}
-  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:keyboard-space$$', h: NUMBER}
   - NUMBER
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:backspace$$', type: backspace}
@@ -81,8 +81,8 @@ layers:
   - {t: \, s: '|'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: held}
+  - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
   - INS
   - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
