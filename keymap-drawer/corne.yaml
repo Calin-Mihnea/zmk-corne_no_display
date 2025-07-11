@@ -14,14 +14,14 @@ layers:
   - P
   - $$mdi:apple-keyboard-option$$
   - $$mdi:keyboard-esc$$
-  - A
+  - {t: A, h: LEFT WIN}
   - S
-  - D
+  - {t: D, h: '$$mdi:apple-keyboard-control$$'}
   - F
   - G
   - H
   - J
-  - K
+  - {t: K, h: '$$mdi:apple-keyboard-control$$'}
   - L
   - {t: ;, s: ':'}
   - {t: '''', s: '"'}
