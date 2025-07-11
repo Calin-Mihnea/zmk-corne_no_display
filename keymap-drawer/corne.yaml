@@ -14,14 +14,14 @@ layers:
   - P
   - $$mdi:apple-keyboard-option$$
   - $$mdi:keyboard-esc$$
-  - {t: A, h: LEFT WIN}
+  - A
   - S
-  - {t: D, h: '$$mdi:apple-keyboard-control$$'}
+  - D
   - F
   - G
   - H
   - J
-  - {t: K, h: '$$mdi:apple-keyboard-control$$'}
+  - K
   - L
   - {t: ;, s: ':'}
   - {t: '''', s: '"'}
@@ -129,3 +129,10 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:apple-keyboard-option$$
+combos:
+- p: [14, 15]
+  k: $$mdi:apple-keyboard-shift$$
+  l: [QWERTY]
+- p: [20, 21]
+  k: $$mdi:apple-keyboard-shift$$
+  l: [QWERTY]
