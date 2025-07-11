@@ -12,7 +12,7 @@ layers:
   - I
   - O
   - P
-  - $$mdi:apple-keyboard-option$$
+  - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-esc$$
   - A
   - S
@@ -25,7 +25,7 @@ layers:
   - L
   - {t: ;, s: ':'}
   - {t: '''', s: '"'}
-  - '&td0'
+  - $$mdi:apple-keyboard-shift$$
   - Z
   - X
   - C
@@ -36,12 +36,12 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - '&td0'
-  - LEFT WIN
-  - {t: '$$mdi:keyboard-space$$', h: NUMBER}
+  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-option$$
+  - $$mdi:keyboard-space$$
   - SYMBOL
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - NUMBER
   - $$mdi:apple-keyboard-control$$
   NUMBER:
   - '~'
@@ -81,10 +81,10 @@ layers:
   - {t: \, s: '|'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: held}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - INS
-  - $$mdi:backspace-reverse-outline$$
+  - {t: '$$mdi:backspace-reverse-outline$$', type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   SYMBOL:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -135,4 +135,16 @@ combos:
   l: [QWERTY]
 - p: [20, 21]
   k: $$mdi:apple-keyboard-shift$$
+  l: [QWERTY]
+- p: [14, 13]
+  k: $$mdi:apple-keyboard-command$$
+  l: [QWERTY]
+- p: [16, 15]
+  k: $$mdi:apple-keyboard-control$$
+  l: [QWERTY]
+- p: [19, 20]
+  k: $$mdi:apple-keyboard-control$$
+  l: [QWERTY]
+- p: [24, 35]
+  k: $$mdi:apple-keyboard-caps$$
   l: [QWERTY]
