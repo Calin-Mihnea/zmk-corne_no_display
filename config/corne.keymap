@@ -32,42 +32,42 @@
         shift {
             bindings = <&kp LEFT_SHIFT>;
             key-positions = <14 15>;
-            timeout-ms = <40>;
+            timeout-ms = <30>;
             layers = <0>;
         };
 
         rshift {
             bindings = <&kp LEFT_SHIFT>;
             key-positions = <20 21>;
-            timeout-ms = <40>;
+            timeout-ms = <30>;
             layers = <0>;
         };
 
         lgui {
             bindings = <&kp LCMD>;
             key-positions = <14 13>;
-            timeout-ms = <40>;
+            timeout-ms = <30>;
             layers = <0>;
         };
 
         lctrl {
             bindings = <&kp LCTRL>;
             key-positions = <16 15>;
-            timeout-ms = <40>;
+            timeout-ms = <30>;
             layers = <0>;
         };
 
         rctrl {
             bindings = <&kp LCTRL>;
             key-positions = <19 20>;
-            timeout-ms = <40>;
+            timeout-ms = <30>;
             layers = <0>;
         };
 
         caps {
             bindings = <&kp CAPSLOCK>;
             key-positions = <24 35>;
-            timeout-ms = <40>;
+            timeout-ms = <30>;
             layers = <0>;
         };
     };
