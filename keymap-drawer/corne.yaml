@@ -142,3 +142,6 @@ combos:
 - p: [24, 35]
   k: $$mdi:apple-keyboard-caps$$
   l: [QWERTY]
+- p: [19, 20]
+  k: $$mdi:apple-keyboard-command$$
+  l: [QWERTY]

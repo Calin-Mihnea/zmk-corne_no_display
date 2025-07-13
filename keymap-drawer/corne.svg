@@ -497,6 +497,10 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="406" y="148" width="28" height="26" class="combo"/>
 <use href="#mdi:apple-keyboard-caps" xlink:href="#mdi:apple-keyboard-caps" x="411" y="152" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-caps"/>
 </g>
+<g class="combo combopos-4">
+<rect rx="6" ry="6" x="602" y="74" width="28" height="26" class="combo"/>
+<use href="#mdi:apple-keyboard-command" xlink:href="#mdi:apple-keyboard-command" x="607" y="78" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-command"/>
+</g>
 </g>
 </g>
 <g transform="translate(40, 330)" class="layer-NUMBER">
