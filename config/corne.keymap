@@ -56,6 +56,13 @@
             timeout-ms = <30>;
             layers = <0>;
         };
+
+        rgui {
+            bindings = <&kp LCMD>;
+            key-positions = <19 20>;
+            timeout-ms = <30>;
+            layers = <0>;
+        };
     };
 
     keymap {
