@@ -37,14 +37,14 @@
         };
 
         lctrl {
-            bindings = <&kp LCTRL>;
+            bindings = <&kp LEFT_ALT>;
             key-positions = <15 14>;
             timeout-ms = <30>;
             layers = <0>;
         };
 
         rctrl {
-            bindings = <&kp LCTRL>;
+            bindings = <&kp LEFT_ALT>;
             key-positions = <20 21>;
             timeout-ms = <30>;
             layers = <0>;
