@@ -37,7 +37,7 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-shift$$
-  - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-command$$
   - $$mdi:keyboard-space$$
   - SYMBOL
   - {t: '$$mdi:keyboard-return$$', type: enter}
