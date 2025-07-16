@@ -134,10 +134,10 @@ combos:
   k: $$mdi:apple-keyboard-command$$
   l: [QWERTY]
 - p: [15, 14]
-  k: $$mdi:apple-keyboard-control$$
+  k: $$mdi:apple-keyboard-option$$
   l: [QWERTY]
 - p: [20, 21]
-  k: $$mdi:apple-keyboard-control$$
+  k: $$mdi:apple-keyboard-option$$
   l: [QWERTY]
 - p: [24, 35]
   k: $$mdi:apple-keyboard-caps$$
