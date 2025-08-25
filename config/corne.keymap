@@ -37,7 +37,7 @@
         };
 
         lctrl {
-            bindings = <&kp LEFT_ALT>;
+            bindings = <&kp LCTRL>;
             key-positions = <15 14>;
             timeout-ms = <30>;
             layers = <0>;
